@@ -1,0 +1,28 @@
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.exe
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.deps.json
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.runtimeconfig.json
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.pdb
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.ToDoList.resources
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.GenerateResource.cache
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfoInputs.cache
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.AssemblyInfo.cs
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.CoreCompileInputs.cache
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.dll
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\refint\To-Do List.dll
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.pdb
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.genruntimeconfig.cache
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\ref\To-Do List.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\To-Do List.dll.config
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\To-Do List\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.AssemblyReference.cache
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.Up2Date
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.CompletedTasks.resources
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.AddTasks.resources
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.RemovedTasks.resources
