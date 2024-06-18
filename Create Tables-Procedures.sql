@@ -27,7 +27,8 @@ BEGIN
 	INSERT INTO Tasks (
 	Descript, 
 	DateCreated, 
-	Status, StartDate, 
+	Status, 
+	StartDate, 
 	DueDate
 	)
 	VALUES (
@@ -35,7 +36,7 @@ BEGIN
 	@DateCreated, 
 	'To-Do', 
 	CONVERT(DATE, @StartDate), 
-	CONVERT(DATE, @DueDate))
+	DATEADD(SECOND, 86399, CONVERT(Date, @DueDate)))
 END;
 GO
 
@@ -75,7 +76,7 @@ BEGIN
 	BEGIN
 		SELECT Descript
 		FROM Tasks
-		WHERE @Date = CompletedDate
+		WHERE @Date = CONVERT(date, CompletedDate)
 		AND @Status = Status
 	END
 
@@ -93,13 +94,12 @@ GO
 -- Transfers tasks from to-do to completed list
 CREATE PROCEDURE CompleteTasks
 	@ToComplete NVARCHAR(50),
-	@TaskDate DATETIME2(0),
-	@CompletedDate DATETIME2(0)
+	@TaskDate DATETIME2(0)
 AS
 BEGIN
 	UPDATE Tasks
 	SET Status = 'Completed', 
-		CompletedDate = @CompletedDate
+		CompletedDate = CONVERT(DATETIME2(0), GETDATE())
 	WHERE Descript = @ToComplete
 	AND @TaskDate BETWEEN StartDate AND DueDate
 END;
@@ -134,10 +134,25 @@ BEGIN
 END;
 GO
 
+----- View Overdue Tasks
+-- Returns tasks due before current day
+CREATE PROCEDURE OverdueTasks
+AS
+BEGIN
+	SELECT 'Task: ' + Descript + '. Due by: ' + CONVERT(NVARCHAR, CAST(DueDate AS DATE)) AS OverdueTask
+	FROM Tasks
+	WHERE CONVERT(DATETIME2(0), GETDATE()) > DueDate
+	AND Status <> 'Completed'
+END;
+GO
+
+
 select * from tasks
 
-DELETE FROM Tasks
-WHERE RemovedFrom IS NULL
+update tasks
+set status = 'Removed'
+where status = 'Completed'
 
-ALTER TABLE Tasks
-ADD CompletedDate DATETIME2(0)
+
+DELETE FROM Tasks
+WHERE Status = 'Removed'
