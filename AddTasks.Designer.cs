@@ -63,7 +63,7 @@
             enterBtn.Location = new Point(37, 139);
             enterBtn.Margin = new Padding(3, 2, 3, 2);
             enterBtn.Name = "enterBtn";
-            enterBtn.Size = new Size(82, 22);
+            enterBtn.Size = new Size(82, 27);
             enterBtn.TabIndex = 2;
             enterBtn.Text = "Enter";
             enterBtn.UseVisualStyleBackColor = true;
@@ -75,7 +75,7 @@
             closeBtn.Location = new Point(182, 139);
             closeBtn.Margin = new Padding(3, 2, 3, 2);
             closeBtn.Name = "closeBtn";
-            closeBtn.Size = new Size(82, 22);
+            closeBtn.Size = new Size(82, 27);
             closeBtn.TabIndex = 3;
             closeBtn.Text = "Close";
             closeBtn.UseVisualStyleBackColor = true;
@@ -115,7 +115,7 @@
             dueDate.Size = new Size(200, 23);
             dueDate.TabIndex = 6;
             // 
-            // AddTasksForm
+            // AddTasks
             // 
             AcceptButton = enterBtn;
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -131,7 +131,7 @@
             Controls.Add(label1);
             Controls.Add(toAdd);
             Margin = new Padding(3, 2, 3, 2);
-            Name = "AddTasksForm";
+            Name = "AddTasks";
             Text = "Add Task";
             ResumeLayout(false);
             PerformLayout();

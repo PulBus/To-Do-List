@@ -26,3 +26,5 @@ C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.csproj.Up2Date
 C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.CompletedTasks.resources
 C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.AddTasks.resources
 C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.RemovedTasks.resources
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To-Do List.sourcelink.json
+C:\Projects\To-Do List\obj\Debug\net8.0-windows\To_Do_List.OverdueTasks.resources

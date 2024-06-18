@@ -6,22 +6,23 @@ namespace To_Do_List
 {
     public class DbManager
     {
-        private string connectionString;
+        private string connectionString = ConfigurationManager.ConnectionStrings["LocalHost"].ConnectionString;
         private string InsertSQL = "InsertTasks";
         private string GetSQL = "GetTasks";
         private string RemoveSQL = "RemoveTasks";
         private string CompleteSQL = "CompleteTasks";
         private string DeleteSQL = "DeleteTasks";
         private string RecoverSQL = "RecoverTasks";
-        private string Status;
-        private ListBox List;
-        private DateTimePicker Date;
-        private DataRowView selectedRow;
-        
-        public DbManager(ListBox list, DateTimePicker date, string status)
-        {
-            connectionString = ConfigurationManager.ConnectionStrings["LocalHost"].ConnectionString;
+        private string OverdueSQL = "OverdueTasks";
+        private string? Status;
 
+        private ListBox List;
+        private DateTimePicker? Date;
+        private DataRowView selectedRow;
+
+        
+        public DbManager(ListBox list, DateTimePicker? date = null, string? status = null)
+        {
             List = list;
             Date = date;
             Status = status;
@@ -65,7 +66,7 @@ namespace To_Do_List
                     cmd.Parameters.AddWithValue("@Description", descript);
                     cmd.Parameters.AddWithValue("@DateCreated", Date.Value.Date);
                     cmd.Parameters.AddWithValue("@StartDate", startDate);
-                    cmd.Parameters.AddWithValue("@DueDate", dueDate);
+                    cmd.Parameters.AddWithValue("@DueDate", dueDate.Date);
 
                     cmd.ExecuteNonQuery();
                 }
@@ -113,7 +114,6 @@ namespace To_Do_List
                     cmd.CommandType = CommandType.StoredProcedure;
                     cmd.Parameters.AddWithValue("@ToComplete", selectedRow["Descript"].ToString());
                     cmd.Parameters.AddWithValue("@TaskDate", Date.Value.Date);
-                    cmd.Parameters.AddWithValue("@CompletedDate", DateTime.Today);
 
                     cmd.ExecuteNonQuery();
                 }
@@ -168,6 +168,30 @@ namespace To_Do_List
             }
 
             LoadData();
+        }
+
+        public void OverdueTasks()
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                using (SqlCommand cmd = new SqlCommand(OverdueSQL, conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dataTable = new DataTable();
+
+                        adapter.Fill(dataTable);
+
+                        List.DisplayMember = "OverdueTask";
+                        List.DataSource = dataTable;
+                    }
+                }
+            }
+
         }
     }
 }

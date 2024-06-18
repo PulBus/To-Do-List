@@ -3,40 +3,40 @@
   "WorkspaceRootPath": "C:\\Projects\\To-Do List\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|c:\\projects\\to-do list\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|c:\\projects\\to-do list\\overduetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:overduetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|c:\\projects\\to-do list\\completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|c:\\projects\\to-do list\\overduetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:overduetasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|c:\\projects\\to-do list\\todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:todolist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:removedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\addtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:addtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\addtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:addtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|C:\\Projects\\To-Do List\\completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{29CB96CB-1941-49A6-A227-FD6ECD8CB305}|To-Do List.csproj|solutionrelative:completedtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +46,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DbManager.cs",
+              "DocumentMoniker": "C:\\Projects\\To-Do List\\DbManager.cs",
+              "RelativeDocumentMoniker": "DbManager.cs",
+              "ToolTip": "C:\\Projects\\To-Do List\\DbManager.cs",
+              "RelativeToolTip": "DbManager.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAjwEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T13:14:56.505Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -90,83 +104,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "RemovedTasks.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\To-Do List\\RemovedTasks.cs",
-              "RelativeDocumentMoniker": "RemovedTasks.cs",
-              "ToolTip": "C:\\Projects\\To-Do List\\RemovedTasks.cs [Design]",
-              "RelativeToolTip": "RemovedTasks.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T17:47:28.024Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RemovedTasks.cs",
-              "DocumentMoniker": "C:\\Projects\\To-Do List\\RemovedTasks.cs",
-              "RelativeDocumentMoniker": "RemovedTasks.cs",
-              "ToolTip": "C:\\Projects\\To-Do List\\RemovedTasks.cs",
-              "RelativeToolTip": "RemovedTasks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-13T17:55:55.298Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "CompletedTasks.cs",
               "DocumentMoniker": "C:\\Projects\\To-Do List\\CompletedTasks.cs",
               "RelativeDocumentMoniker": "CompletedTasks.cs",
               "ToolTip": "C:\\Projects\\To-Do List\\CompletedTasks.cs",
               "RelativeToolTip": "CompletedTasks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAfAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-10T16:06:33.692Z",
+              "WhenOpened": "2024-06-18T17:28:44.355Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CompletedTasks.cs [Design]",
-              "DocumentMoniker": "C:\\Projects\\To-Do List\\CompletedTasks.cs",
-              "RelativeDocumentMoniker": "CompletedTasks.cs",
-              "ToolTip": "C:\\Projects\\To-Do List\\CompletedTasks.cs [Design]",
-              "RelativeToolTip": "CompletedTasks.cs [Design]",
+              "DocumentIndex": 1,
+              "Title": "OverdueTasks.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\To-Do List\\OverdueTasks.cs",
+              "RelativeDocumentMoniker": "OverdueTasks.cs",
+              "ToolTip": "C:\\Projects\\To-Do List\\OverdueTasks.cs [Design]",
+              "RelativeToolTip": "OverdueTasks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-12T10:48:12.249Z",
+              "WhenOpened": "2024-06-18T17:00:12.588Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DbManager.cs",
-              "DocumentMoniker": "C:\\Projects\\To-Do List\\DbManager.cs",
-              "RelativeDocumentMoniker": "DbManager.cs",
-              "ToolTip": "C:\\Projects\\To-Do List\\DbManager.cs",
-              "RelativeToolTip": "DbManager.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAcwJAAAAANAAAA",
+              "DocumentIndex": 3,
+              "Title": "OverdueTasks.cs",
+              "DocumentMoniker": "C:\\Projects\\To-Do List\\OverdueTasks.cs",
+              "RelativeDocumentMoniker": "OverdueTasks.cs",
+              "ToolTip": "C:\\Projects\\To-Do List\\OverdueTasks.cs",
+              "RelativeToolTip": "OverdueTasks.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T13:14:56.505Z",
+              "WhenOpened": "2024-06-18T16:59:39.203Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "ToDoList.cs",
               "DocumentMoniker": "C:\\Projects\\To-Do List\\ToDoList.cs",
               "RelativeDocumentMoniker": "ToDoList.cs",
               "ToolTip": "C:\\Projects\\To-Do List\\ToDoList.cs",
               "RelativeToolTip": "ToDoList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAvAAAA",
+              "ViewState": "AQIAACsAAAAAAAAAAAAcwEsAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-03T12:50:54.132Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "ToDoList.cs [Design]",
               "DocumentMoniker": "C:\\Projects\\To-Do List\\ToDoList.cs",
               "RelativeDocumentMoniker": "ToDoList.cs",
@@ -185,19 +174,32 @@
               "ToolTip": "C:\\Projects\\To-Do List\\AddTasks.cs [Design]",
               "RelativeToolTip": "AddTasks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T17:38:46.26Z"
+              "WhenOpened": "2024-06-03T17:38:46.26Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RemovedTasks.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\To-Do List\\RemovedTasks.cs",
+              "RelativeDocumentMoniker": "RemovedTasks.cs",
+              "ToolTip": "C:\\Projects\\To-Do List\\RemovedTasks.cs [Design]",
+              "RelativeToolTip": "RemovedTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T17:47:28.024Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AddTasks.cs",
-              "DocumentMoniker": "C:\\Projects\\To-Do List\\AddTasks.cs",
-              "RelativeDocumentMoniker": "AddTasks.cs",
-              "ToolTip": "C:\\Projects\\To-Do List\\AddTasks.cs",
-              "RelativeToolTip": "AddTasks.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABNAAAA",
+              "Title": "CompletedTasks.cs [Design]",
+              "DocumentMoniker": "C:\\Projects\\To-Do List\\CompletedTasks.cs",
+              "RelativeDocumentMoniker": "CompletedTasks.cs",
+              "ToolTip": "C:\\Projects\\To-Do List\\CompletedTasks.cs [Design]",
+              "RelativeToolTip": "CompletedTasks.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-03T15:38:41.11Z"
+              "WhenOpened": "2024-06-12T10:48:12.249Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

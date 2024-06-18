@@ -6,14 +6,14 @@ namespace To_Do_List
         private AddTasks addTasks;
         private CompletedTasks completedTask;
         private RemovedTasks removedTask;
+        private OverdueTasks overdueTask;
+
         public ToDoList()
         {
             InitializeComponent();
 
             dbManager = new DbManager(doList, datePick, "To-Do");
             dbManager.LoadData();
-
-            addTasks = new AddTasks(dbManager);
         }
 
         private void datePick_ValueChanged(object sender, EventArgs e)
@@ -23,54 +23,56 @@ namespace To_Do_List
 
         private void addTasksBtn_Click(object sender, EventArgs e)
         {
-            addTasks.ShowDialog();
+            addTasks = new AddTasks(dbManager);
+            openForm(addTasks);
         }
 
         private void removeTasksBtn_Click(object sender, EventArgs e)
         {
-            if (!removedChk.Checked)
-            {
-                var selectedTask = doList.SelectedItem;
+            var selectedTask = doList.SelectedItem;
 
-                if (selectedTask != null) dbManager.RemoveTask();
-                else MessageBox.Show("No task to remove was selected. \nTry again.", "Error");
-            }
-            else
+            if (selectedTask != null)
             {
-                removedTask = new RemovedTasks();
-                removedTask.ShowDialog();
+                dbManager.RemoveTask();
+                dbManager.LoadData();
             }
+            else MessageBox.Show("No task to remove was selected. \nTry again.", "Error");
         }
 
         private void completedBtn_Click(object sender, EventArgs e)
         {
-            if (!completedChk.Checked)
+            var selectedTask = doList.SelectedItem;
+            if (selectedTask != null)
             {
-                var selectedTask = doList.SelectedItem;
-                if (selectedTask != null)
-                {
-                    dbManager.CompleteTask();
-                    dbManager.LoadData();
-                }
-                else MessageBox.Show("No task to complete was selected. \nTry again.", "Error");
+                dbManager.CompleteTask();
+                dbManager.LoadData();
             }
-            else 
-            {
-                completedTask = new CompletedTasks();
-                completedTask.ShowDialog();
-            }
+            else MessageBox.Show("No task to complete was selected. \nTry again.", "Error");
         }
 
-        private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        private void showCompletedToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if (completedChk.Checked) completedBtn.Text = "Show Completed";
-            else completedBtn.Text = "Task Completed";
+            completedTask = new CompletedTasks();
+            openForm(completedTask);
         }
 
-        private void removedChk_CheckedChanged(object sender, EventArgs e)
+        private void showRemovedToolStripMenuItem1_Click(object sender, EventArgs e)
         {
-            if (removedChk.Checked) removeTasksBtn.Text = "Show Removed";
-            else removeTasksBtn.Text = "Remove Task";
+            removedTask = new RemovedTasks();
+            openForm(removedTask);
+        }
+
+        private void openForm(Form open)
+        {
+            this.Hide();
+            open.ShowDialog();
+            this.Show();
+        }
+
+        private void showOverdueToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            overdueTask = new OverdueTasks();
+            openForm(overdueTask);
         }
     }
 }
