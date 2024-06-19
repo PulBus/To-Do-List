@@ -190,8 +190,33 @@ namespace To_Do_List
                         List.DataSource = dataTable;
                     }
                 }
-            }
 
+                conn.Close();
+            }
+        }
+
+        public void updateLabel(Label label)
+        {
+            using (SqlConnection conn = new SqlConnection(connectionString))
+            {
+                conn.Open();
+
+                using (SqlCommand cmd = new SqlCommand(OverdueSQL, conn))
+                {
+                    cmd.CommandType = CommandType.StoredProcedure;
+
+                    using (SqlDataAdapter adapter = new SqlDataAdapter(cmd))
+                    {
+                        DataTable dataTable = new DataTable();
+
+                        adapter.Fill(dataTable);
+
+                        label.Text = "Overdue Tasks: " + dataTable.Rows.Count.ToString();
+                    }
+                }
+
+                conn.Close();
+            }
         }
     }
 }

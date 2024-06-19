@@ -13,7 +13,7 @@ namespace To_Do_List
             InitializeComponent();
 
             dbManager = new DbManager(doList, datePick, "To-Do");
-            dbManager.LoadData();
+            loading();
         }
 
         private void datePick_ValueChanged(object sender, EventArgs e)
@@ -34,7 +34,7 @@ namespace To_Do_List
             if (selectedTask != null)
             {
                 dbManager.RemoveTask();
-                dbManager.LoadData();
+                loading();
             }
             else MessageBox.Show("No task to remove was selected. \nTry again.", "Error");
         }
@@ -45,7 +45,7 @@ namespace To_Do_List
             if (selectedTask != null)
             {
                 dbManager.CompleteTask();
-                dbManager.LoadData();
+                loading();
             }
             else MessageBox.Show("No task to complete was selected. \nTry again.", "Error");
         }
@@ -66,6 +66,7 @@ namespace To_Do_List
         {
             this.Hide();
             open.ShowDialog();
+            loading();
             this.Show();
         }
 
@@ -73,6 +74,12 @@ namespace To_Do_List
         {
             overdueTask = new OverdueTasks();
             openForm(overdueTask);
+        }
+
+        private void loading()
+        {
+            dbManager.LoadData();
+            dbManager.updateLabel(overdueLbl);
         }
     }
 }

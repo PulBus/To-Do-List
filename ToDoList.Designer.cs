@@ -48,6 +48,7 @@
             showCompletedToolStripMenuItem1 = new ToolStripMenuItem();
             showRemovedToolStripMenuItem1 = new ToolStripMenuItem();
             showOverdueToolStripMenuItem1 = new ToolStripMenuItem();
+            overdueLbl = new Label();
             doListContext.SuspendLayout();
             doListStrip.SuspendLayout();
             SuspendLayout();
@@ -112,52 +113,52 @@
             doListContext.ImageScalingSize = new Size(20, 20);
             doListContext.Items.AddRange(new ToolStripItem[] { addTasksToolStripMenuItem, removeTaskToolStripMenuItem, completeTaskToolStripMenuItem, toolStripMenuItem1, showRemovedToolStripMenuItem, showCompletedToolStripMenuItem, showOverdueToolStripMenuItem });
             doListContext.Name = "doListMenu";
-            doListContext.Size = new Size(181, 164);
+            doListContext.Size = new Size(166, 142);
             // 
             // addTasksToolStripMenuItem
             // 
             addTasksToolStripMenuItem.Name = "addTasksToolStripMenuItem";
-            addTasksToolStripMenuItem.Size = new Size(180, 22);
+            addTasksToolStripMenuItem.Size = new Size(165, 22);
             addTasksToolStripMenuItem.Text = "Add Tasks";
             addTasksToolStripMenuItem.Click += addTasksBtn_Click;
             // 
             // removeTaskToolStripMenuItem
             // 
             removeTaskToolStripMenuItem.Name = "removeTaskToolStripMenuItem";
-            removeTaskToolStripMenuItem.Size = new Size(180, 22);
+            removeTaskToolStripMenuItem.Size = new Size(165, 22);
             removeTaskToolStripMenuItem.Text = "Remove Task";
             removeTaskToolStripMenuItem.Click += removeTasksBtn_Click;
             // 
             // completeTaskToolStripMenuItem
             // 
             completeTaskToolStripMenuItem.Name = "completeTaskToolStripMenuItem";
-            completeTaskToolStripMenuItem.Size = new Size(180, 22);
+            completeTaskToolStripMenuItem.Size = new Size(165, 22);
             completeTaskToolStripMenuItem.Text = "Complete Task";
             completeTaskToolStripMenuItem.Click += completedBtn_Click;
             // 
             // toolStripMenuItem1
             // 
             toolStripMenuItem1.Name = "toolStripMenuItem1";
-            toolStripMenuItem1.Size = new Size(177, 6);
+            toolStripMenuItem1.Size = new Size(162, 6);
             // 
             // showRemovedToolStripMenuItem
             // 
             showRemovedToolStripMenuItem.Name = "showRemovedToolStripMenuItem";
-            showRemovedToolStripMenuItem.Size = new Size(180, 22);
+            showRemovedToolStripMenuItem.Size = new Size(165, 22);
             showRemovedToolStripMenuItem.Text = "Show Completed";
             showRemovedToolStripMenuItem.Click += showCompletedToolStripMenuItem1_Click;
             // 
             // showCompletedToolStripMenuItem
             // 
             showCompletedToolStripMenuItem.Name = "showCompletedToolStripMenuItem";
-            showCompletedToolStripMenuItem.Size = new Size(180, 22);
+            showCompletedToolStripMenuItem.Size = new Size(165, 22);
             showCompletedToolStripMenuItem.Text = "Show Removed";
             showCompletedToolStripMenuItem.Click += showRemovedToolStripMenuItem1_Click;
             // 
             // showOverdueToolStripMenuItem
             // 
             showOverdueToolStripMenuItem.Name = "showOverdueToolStripMenuItem";
-            showOverdueToolStripMenuItem.Size = new Size(180, 22);
+            showOverdueToolStripMenuItem.Size = new Size(165, 22);
             showOverdueToolStripMenuItem.Text = "Show Overdue";
             showOverdueToolStripMenuItem.Click += showOverdueToolStripMenuItem1_Click;
             // 
@@ -210,12 +211,23 @@
             showOverdueToolStripMenuItem1.Text = "Show Overdue";
             showOverdueToolStripMenuItem1.Click += showOverdueToolStripMenuItem1_Click;
             // 
+            // overdueLbl
+            // 
+            overdueLbl.AutoSize = true;
+            overdueLbl.Font = new Font("Segoe UI", 9F, FontStyle.Bold);
+            overdueLbl.Location = new Point(12, 314);
+            overdueLbl.Name = "overdueLbl";
+            overdueLbl.Size = new Size(91, 15);
+            overdueLbl.TabIndex = 12;
+            overdueLbl.TextAlign = ContentAlignment.TopRight;
+            // 
             // ToDoList
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(409, 336);
+            ClientSize = new Size(409, 342);
             ContextMenuStrip = doListContext;
+            Controls.Add(overdueLbl);
             Controls.Add(doListStrip);
             Controls.Add(completedBtn);
             Controls.Add(doList);
@@ -226,7 +238,7 @@
             MainMenuStrip = doListStrip;
             Margin = new Padding(3, 2, 3, 2);
             Name = "ToDoList";
-            Text = "Form1";
+            Text = "To-Do List";
             doListContext.ResumeLayout(false);
             doListStrip.ResumeLayout(false);
             doListStrip.PerformLayout();
@@ -254,5 +266,6 @@
         private ToolStripMenuItem addTasksToolStripMenuItem1;
         private ToolStripMenuItem showOverdueToolStripMenuItem;
         private ToolStripMenuItem showOverdueToolStripMenuItem1;
+        private Label overdueLbl;
     }
 }

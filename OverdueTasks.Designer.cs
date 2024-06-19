@@ -61,7 +61,7 @@
             Controls.Add(label1);
             Controls.Add(overdueBox);
             Name = "OverdueTasks";
-            Text = "Form1";
+            Text = "Overdue Tasks";
             ResumeLayout(false);
             PerformLayout();
         }
