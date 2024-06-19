@@ -36,7 +36,7 @@ BEGIN
 	@DateCreated, 
 	'To-Do', 
 	CONVERT(DATE, @StartDate), 
-	DATEADD(SECOND, 86399, CONVERT(Date, @DueDate)))
+	DATEADD(SECOND, 86399, @DueDate)) -- Sets the due date to yyyy-mm-dd 23:59:59
 END;
 GO
 
@@ -99,7 +99,7 @@ AS
 BEGIN
 	UPDATE Tasks
 	SET Status = 'Completed', 
-		CompletedDate = CONVERT(DATETIME2(0), GETDATE())
+		CompletedDate = CONVERT(DATETIME2(0), GETDATE()) -- Sets CompletedDate to "Today's" date
 	WHERE Descript = @ToComplete
 	AND @TaskDate BETWEEN StartDate AND DueDate
 END;
