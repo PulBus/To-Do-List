@@ -7,6 +7,9 @@
     <Compile Update="CompletedTasks.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="OverdueTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="RemovedTasks.cs">
       <SubType>Form</SubType>
     </Compile>
